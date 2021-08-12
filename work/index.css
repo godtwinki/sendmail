@@ -1,0 +1,23 @@
+h1{
+    color: aqua;
+}
+a:visited {
+    color:rgb(255, 15, 55);
+}
+p:first-letter{
+    font-size: 30px;
+}
+p::selection{
+    color: orchid;
+    background-color: palegoldenrod;
+}
+.test1{
+   width: 10%;
+}
+.test2{
+    width: 10%;
+}
+a[href="https://www.youtube.com/channel/UCBPIZYLnByjwZhrYTyw_2xg"]{
+    color: palegreen;
+    font-family: fantasy;
+}
