@@ -7,6 +7,8 @@ p{
   word-spacing: 2px; /*расстояние между словами*/
   line-height: 30px; /*расстояние межу строк*/
   text-indent: 25px; /* отступы от краев*/
+  box-shadow: -10px 10px 10px gray ;
+  
 
 }
 a :hover {   /*hover active links*/
@@ -15,11 +17,29 @@ a :hover {   /*hover active links*/
 a {
     text-decoration: none;
 }
-h1,h2,h3{
-    text-shadow: 0px 2px 4px royalblue;
-    text-align: center; /*выравнивание текста*/
-}
-ol{
-    list-style-type: upper-roman;
+    /* text-shadow: 0px 2px 4px royalblue; */
+    /* text-align: center; выравнивание текста */
+
+
+    /* list-style-type: upper-roman; */
     /*list-style-image: url(audi.jpg); картинки для списка, вместо нумерации или ...*/
+
+    p.test2{
+    border: 1px solid springgreen;
+    background: turquoise;
+    padding: 5px;
+    border-radius: 45px 45px 0 0;
+    width: 50%;
+    overflow: auto;
+    min-height: 600px;
+}
+
+h2.test3{
+    width: 300px;
+    padding: 30x;
+    border-width: 5px;
+    margin: 30px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    
 }
