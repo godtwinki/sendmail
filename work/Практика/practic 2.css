@@ -12,6 +12,7 @@ p{
 
 }
 a :hover {   /*hover active links*/
+    
     text-decoration: underline;
 }
 a {
@@ -25,7 +26,7 @@ a {
     /*list-style-image: url(audi.jpg); картинки для списка, вместо нумерации или ...*/
 
     p.test2{
-    border: 1px solid springgreen;
+    border: 1px solid rgb(17, 24, 20);
     background: turquoise;
     padding: 5px;
     border-radius: 45px 45px 0 0;
