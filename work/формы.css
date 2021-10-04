@@ -1,0 +1,68 @@
+body{
+    width: 1024px;
+    margin: o auto;
+    background-color: bisque;
+    color: rgb(0, 0, 0);
+    border: solid 2px black;
+    
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: silver 5px 5px 5px;
+    border-bottom: dotted 5px black;
+    padding-bottom: 5px;
+
+}
+
+p{
+    margin-bottom: 20px;
+    
+}
+
+.subform{
+    font-size: 1.1em;
+    font-weight: bold;
+
+
+}
+
+.subform label{
+
+    display: inline-block;
+    width: 210px;
+    vertical-align: top;
+    margin-right: 10px;
+    
+}
+
+.subform input[type="submit"]{
+    margin-left: 223px;
+    padding: 12px 24px;
+    font-size: 1em;
+    background: coral;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+}
+
+.subform input[type="checkbox"]{
+    margin-left: 23px;
+    
+    
+    
+}
+
+.subform input[type="text"], .subform input[type="email"],.subform textarea[type="comments"]{
+width: 500px;
+
+}
+textarea{
+    resize: none;
+    width: 500px;
+}
+
+
+
+
