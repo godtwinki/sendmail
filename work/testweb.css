@@ -1,0 +1,36 @@
+header{
+    background: yellow;
+    padding: 0; 
+    margin: 0;
+   
+}
+
+nav{
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+    
+   
+    
+    
+}
+
+
+nav a{
+    text-decoration: none;
+    float: left;
+    font-size: 30px;
+    border-right: solid 1px black;
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
